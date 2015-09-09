@@ -1,5 +1,6 @@
 import random
 
+
 def generate_fact(start=0, end=10, ops=["+", "*", "-"], nonneg=True):
     top = random.randint(start, end)
     bottom = random.randint(start, end)
